@@ -1,0 +1,8 @@
+nohup java -jar project.jar > ./output.log 2>&1 &
+
+구성 요소	의미
+nohup	터미널 끊겨도 실행 유지
+java -jar project.jar	애플리케이션 실행
+>	출력 리다이렉트
+2>&1	에러도 출력 파일로
+&	백그라운드 실행
