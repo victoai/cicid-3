@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HelloController {
 
     @ResponseBody
-    @GetMapping("hi-cicd-docker")
+    @GetMapping("/hi-cicd")
+
     public String  hi(){
 
         return  "hi  cicd docker !!!  ^^^ !!! 1215 ";
